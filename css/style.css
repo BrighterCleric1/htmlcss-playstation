@@ -136,6 +136,13 @@ overflow: hidden;
     width: 100%;
 }
 
+.sale-img img{
+    width: 100%;
+}
+
+.sale-img{
+    margin-bottom: 24px;
+}
 @media all and (max-width:991px){
     .game-img-title img{
         width: 35%;
