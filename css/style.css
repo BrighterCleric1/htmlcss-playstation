@@ -51,7 +51,7 @@
     color: white;
 }
 
-.returnal-img-title img{
+.game-img-title img{
     width: 100%;
 }
 
@@ -95,4 +95,36 @@
 
 .tool-img img{
     width: 100%;
+}
+
+.it-takes-two-bg{
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.it-takes-2-row{
+    padding-top: 100px;
+}
+
+.new-release{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.new-release-img img{
+    width: 100%;
+}
+
+.new-release-img{
+border-radius: 12px;
+overflow: hidden;
+}
+
+@media all and (max-width:991px){
+    .game-img-title img{
+        width: 35%;
+    }
 }
