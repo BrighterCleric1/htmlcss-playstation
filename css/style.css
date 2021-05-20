@@ -123,8 +123,25 @@ border-radius: 12px;
 overflow: hidden;
 }
 
+.ps4-img img{
+    width: 100%;
+}
+
+.psplus-bg{
+    
+    background-color: #BEBCBB;
+}
+
+.psplus-right-img img{
+    width: 100%;
+}
+
 @media all and (max-width:991px){
     .game-img-title img{
         width: 35%;
+    }
+
+    .psplus-img-title img{
+        width: 80%;
     }
 }
