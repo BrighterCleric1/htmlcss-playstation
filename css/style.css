@@ -48,6 +48,7 @@
     height: 600px;
     background-size: cover;
     background-position: center;
+    color: white;
 }
 
 .returnal-img-title img{
@@ -56,4 +57,42 @@
 
 .jumbo-row{
     padding-top: 250px;
+}
+
+.box-mini-games{
+    border-radius: 20px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.box-mini-games:hover{
+    border: 2px solid blue;
+}
+
+.box-mini-games-inner{
+    border: 4px solid #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.box-mini-games-inner img{
+    width: 100%;
+}
+
+.mini-games-row{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.mg-bot{
+    margin-bottom: 50px;
+}
+
+.play-img img{
+    width: 100%;
+}
+
+.tool-img img{
+    width: 100%;
 }
