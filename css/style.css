@@ -275,9 +275,17 @@ ul{
     }
 }
 
-@media all and (max-width:992px){
-    .navbar-expand-md .navbar-collapse {
-        display: none !important;
-        flex-basis: auto;
-    }
+.logo-xbox{
+    color: white;
+    font-size: 20px;
+    display: none;
+}
+
+.sony-logo:hover + .logo-xbox{
+    display: block;
+    font-size: 25px;
+}
+
+.sony-logo:hover{
+    display: none;
 }
