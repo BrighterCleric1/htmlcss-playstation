@@ -3,6 +3,13 @@
     background-color: black;
 }
 
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1001;
+}
+
 .nav-item .nav-link::after {
     display: inline-block;
     margin-left: .255em;
@@ -17,7 +24,7 @@
     border-left: .3em solid transparent;
 }
 
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav .nav-link{
     color: black;
 }
 
@@ -28,11 +35,6 @@
 .navbar-dark .navbar-toggler {
     /* color: rgba(255,255,255,.55); */
     border-color: black;
-}
-
-.navbar-dark .navbar-toggler-icon {
-    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-
 }
 
 .nav-collapse-grow-0{
@@ -99,7 +101,6 @@
 
 .it-takes-two-bg{
     background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
-    height: 600px;
     background-size: cover;
     background-position: center;
     color: white;
@@ -155,7 +156,103 @@ overflow: hidden;
 
 .footer{
     background: #00439C;
+    color: white;
 }
+
+ul{
+    list-style: none;
+}
+
+.sie svg{
+    height: 47px;
+}
+
+
+
+/* UN PO DI FORMATTAZIONE */
+
+.btn{
+    border-radius: 20px;
+}
+
+.login-btn{
+    background-color: #5B5B5B;
+    border: none;
+    margin-right: 20px;
+}
+
+.buynow-btn{
+    background-color: #CD3D0F;
+    border: none;
+}
+
+.psnow-btn{
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+.jumbo-returnal .jumbo-row [class*="col"] *, .it-takes-2-row [class*="col"] *{
+    margin-bottom: 30px;
+}
+
+.jumbo-returnal .jumbo-row [class*="col"] h4, .it-takes-2-row [class*="col"] h4{
+    font-size: 30px;
+}
+
+.jumbo-returnal .jumbo-row [class*="col"] .game-img-title, .it-takes-2-row [class*="col"] .game-img-title{
+    margin-bottom: 0px;
+}
+
+
+.nolimits{
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #00A1E4;
+}
+
+.greytext{
+    color: #636363;
+}
+
+.play5 *{
+    margin-bottom: 20px;
+}
+
+.tool-img{
+    opacity: 50%;
+    padding-bottom: 20px;
+}
+
+.tool-img:hover{
+    opacity: 100%;
+    border-bottom: 2px solid #0072CE;
+}
+
+.new-release .container .row:nth-of-type(1){
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new-release-item{
+    margin-bottom: 24px;
+}
+
+.btn-plus{
+    background-color: #D9DADC;
+    border: none;
+    color: #0072CE;
+}
+
+.black-header .container-fluid .riga-sony .sony-logo{
+    width: 100px;
+}
+
+.riga-sony{
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media all and (max-width:991px){
     .game-img-title img{
         width: 35%;
@@ -164,4 +261,20 @@ overflow: hidden;
     .psplus-img-title img{
         width: 80%;
     }
+}
+
+@media all and (min-width:991px){
+    .jumbo-returnal{
+        height: 700px;
+    }
+}
+
+@media all and (max-width:768px){
+    .footer .container .row .list{
+        padding-top: 0px!important;
+    }
+}
+
+@media all and (min-width:992px){
+    
 }
