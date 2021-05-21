@@ -140,7 +140,7 @@ overflow: hidden;
     width: 100%;
 }
 
-.sale-img{
+.sale-img, .social-img{
     margin-bottom: 24px;
 }
 
@@ -149,6 +149,13 @@ overflow: hidden;
     color: white;
 }
 
+.social-img img{
+    width: 100%;
+}
+
+.footer{
+    background: #00439C;
+}
 @media all and (max-width:991px){
     .game-img-title img{
         width: 35%;
