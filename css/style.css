@@ -143,6 +143,12 @@ overflow: hidden;
 .sale-img{
     margin-bottom: 24px;
 }
+
+.playnow{
+    background-color: #192457;
+    color: white;
+}
+
 @media all and (max-width:991px){
     .game-img-title img{
         width: 35%;
