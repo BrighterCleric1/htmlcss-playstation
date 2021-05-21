@@ -275,6 +275,9 @@ ul{
     }
 }
 
-@media all and (min-width:992px){
-    
+@media all and (max-width:992px){
+    .navbar-expand-md .navbar-collapse {
+        display: none !important;
+        flex-basis: auto;
+    }
 }
