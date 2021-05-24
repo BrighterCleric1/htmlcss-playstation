@@ -53,10 +53,6 @@
     color: white;
 }
 
-.game-img-title img{
-    width: 100%;
-}
-
 .jumbo-row{
     padding-top: 250px;
 }
@@ -78,10 +74,6 @@
     overflow: hidden;
 }
 
-.box-mini-games-inner img{
-    width: 100%;
-}
-
 .mini-games-row{
     margin-top: 50px;
     margin-bottom: 100px;
@@ -89,14 +81,6 @@
 
 .mg-bot{
     margin-bottom: 50px;
-}
-
-.play-img img{
-    width: 100%;
-}
-
-.tool-img img{
-    width: 100%;
 }
 
 .it-takes-two-bg{
@@ -115,30 +99,14 @@
     color: white;
 }
 
-.new-release-img img{
-    width: 100%;
-}
-
 .new-release-img{
 border-radius: 12px;
 overflow: hidden;
 }
 
-.ps4-img img{
-    width: 100%;
-}
-
 .psplus-bg{
     
     background-color: #BEBCBB;
-}
-
-.psplus-right-img img{
-    width: 100%;
-}
-
-.sale-img img{
-    width: 100%;
 }
 
 .sale-img, .social-img{
@@ -150,7 +118,7 @@ overflow: hidden;
     color: white;
 }
 
-.social-img img{
+.social-img img, .game-img-title img, .box-mini-games-inner img, .play-img img, .tool-img img, .new-release-img img, .ps4-img img, .sale-img img, .psplus-right-img img, .social-img img{
     width: 100%;
 }
 
